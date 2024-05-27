@@ -1,0 +1,121 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+#lata{
+    width: 52.6%;
+    height: 550px;
+    background-color: grey;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: relative;
+    z-index: 0;
+}
+
+#tela{
+    width: 42.7%;
+    height: 365px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -500px;
+    position: relative;
+    z-index: 1;
+    border-radius: 50px;
+}
+
+#ligar{
+    background-color: rgb(255, 0, 0);
+    width: 70px;
+    height: 35px;
+    position: relative;
+    margin-left: 560px;
+    margin-right: auto;
+    margin-top: 13px;
+    font-size: 10px;
+    text-align: center;
+    z-index: 0;
+    border: 5px;
+    border-style: groove;
+    border-color: black;
+}
+
+#ligar:hover{
+    background-color: rgb(200, 0, 0);
+}
+
+#ligar:active{
+    background-color: rgb(100, 0, 0);
+}
+
+#canala{
+    background-color: rgb(30, 30, 30);
+    width: 50px;
+    height: 28px;
+    position: relative;
+    margin-left: 250px;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 6px;
+    text-align: center;
+    color: rgb(200, 200, 200);
+    z-index: 0;
+    border: 5px;
+    border-style: groove;
+    border-color: black;
+}
+
+#canala:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+#canala:active{
+    background-color: rgb(100, 100, 100);
+}
+
+#canale{
+    background-color: rgb(30, 30, 30);
+    width: 50px;
+    height: 28px;
+    position: relative;
+    margin-left: 250px;
+    margin-right: auto;
+    margin-top: -10px;
+    font-size: 6px;
+    text-align: center;
+    color: rgb(200, 200, 200);
+    z-index: 0;
+    border: 5px;
+    border-style: groove;
+    border-color: black;
+}
+
+#canale:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+#canale:active{
+    background-color: rgb(100, 100, 100);
+}
+
+#que{
+    background-color: rgb(30, 30, 30, 0);
+    width: 50px;
+    height: 28px;
+    position: relative;
+    margin-left: 250px;
+    margin-right: auto;
+    margin-top: -10px;
+    font-size: 6px;
+    text-align: center;
+    color: rgb(200, 200, 200);
+    z-index: 0;
+    border: 5px;
+    border-color: rgb(9, 9, 9, 0);
+}
